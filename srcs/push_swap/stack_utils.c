@@ -43,5 +43,16 @@ t_stack_node *find_min(t_stack_node *stack)
     t_stack_node    *min_node;
 
     if (!stack)
-        return (NULL);\
+        return (NULL);
+    max = LONG_MIN;
+    while (stack)
+    {
+        if (stack->nbr > max)
+        {
+            max = stack->nbr;
+            max_node = stack;
+        }
+        stack = stack->next;
+    }
+    return (max_node);
 }
