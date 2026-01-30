@@ -42,7 +42,7 @@ FT_DIR    =  $(SRC_DIR)ft/ft_isalnum.c \
             $(SRC_DIR)ft/ft_strnstr.c \
             $(SRC_DIR)ft/ft_strrchr.c \
             $(SRC_DIR)ft/ft_strtrim.c \
-            $(SRC_DIR)ft/ft_substr.c \
+            $(SRC_DIR)ft/ft_substr.c
 
 FTLST_DIR  = $(SRC_DIR)ft_lst/ft_lstadd_back.c \
             $(SRC_DIR)ft_lst/ft_lstadd_front.c \
@@ -52,7 +52,7 @@ FTLST_DIR  = $(SRC_DIR)ft_lst/ft_lstadd_back.c \
             $(SRC_DIR)ft_lst/ft_lstlast.c \
             $(SRC_DIR)ft_lst/ft_lstmap.c \
             $(SRC_DIR)ft_lst/ft_lstnew.c \
-            $(SRC_DIR)ft_lst/ft_lstsize.c \
+            $(SRC_DIR)ft_lst/ft_lstsize.c
 
 FTPRINTF_DIR  =  $(SRC_DIR)ft_printf/ft_printf.c \
                 $(SRC_DIR)ft_printf/ft_print_char.c \
@@ -61,10 +61,10 @@ FTPRINTF_DIR  =  $(SRC_DIR)ft_printf/ft_printf.c \
                 $(SRC_DIR)ft_printf/ft_print_pointer.c \
                 $(SRC_DIR)ft_printf/ft_print_string.c \
                 $(SRC_DIR)ft_printf/ft_print_unsigned.c \
-                $(SRC_DIR)ft_printf/ft_type.c \
+                $(SRC_DIR)ft_printf/ft_type.c
 
 FTGNL_DIR  =    $(SRC_DIR)get_next_line/get_next_line.c \
-                $(SRC_DIR)get_next_line/get_next_line_utils.c \
+                $(SRC_DIR)get_next_line/get_next_line_utils.c
 
 SRC        =  $(FT_DIR) $(FTLST_DIR) $(FTPRINTF_DIR) $(FTGNL_DIR)
 
