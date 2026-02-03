@@ -5,6 +5,7 @@
 # include <limits.h>
 # include "../libft/inc/libft.h"
 # include "../libft/inc/ft_printf.h"
+# include "../libft/inc/get_next_line.h"
 
 typedef struct s_stack_node
 {
