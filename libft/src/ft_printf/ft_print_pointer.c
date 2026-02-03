@@ -6,11 +6,11 @@
 /*   By: neves <neves@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/17 22:42:00 by neves             #+#    #+#             */
-/*   Updated: 2025/11/17 23:00:54 by neves            ###   ########.fr       */
+/*   Updated: 2026/02/03 00:28:34 by neves            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../../inc/ft_printf.h"
 
 static int  ft_print_hlong(unsigned long num)
 {

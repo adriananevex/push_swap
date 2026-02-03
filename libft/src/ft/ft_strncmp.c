@@ -6,11 +6,11 @@
 /*   By: neves <neves@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/24 20:40:15 by aneves            #+#    #+#             */
-/*   Updated: 2025/11/10 23:31:53 by neves            ###   ########.fr       */
+/*   Updated: 2026/02/03 00:26:34 by neves            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../inc/libft.h"
 
 int	ft_strncmp(const char *c1, const char *c2, size_t n)
 {

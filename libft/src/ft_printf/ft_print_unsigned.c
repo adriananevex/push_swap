@@ -6,11 +6,11 @@
 /*   By: neves <neves@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/17 23:11:51 by neves             #+#    #+#             */
-/*   Updated: 2025/11/17 23:23:47 by neves            ###   ########.fr       */
+/*   Updated: 2026/02/03 00:28:41 by neves            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../../inc/ft_printf.h"
 
 int ft_print_unsigned(unsigned int n)
 {

@@ -4,7 +4,7 @@ static void rotate(t_stack_node **stack)
 {
   t_stack_node  *last_node;
 
-  if (!*stack || !(stack)->next)
+  if (!*stack || !(*stack)->next)
     return ;
   last_node = find_last(*stack);
   last_node->next = *stack;
@@ -14,7 +14,7 @@ static void rotate(t_stack_node **stack)
   last_node->next->next = NULL;
 }
 
-void  ra(t_node **a, bool print)
+void  ra(t_stack_node **a, bool print)
 {
   rotate(a);
   if (!print)

@@ -30,7 +30,7 @@ static void append_node(t_stack_node **stack, int n)
 
     if (!stack)
         return ;
-    node = malloc(sizeof(t_stack_node))
+    node = malloc(sizeof(t_stack_node));
     if (!node)
         return ;
     node ->next = NULL;

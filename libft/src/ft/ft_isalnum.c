@@ -6,11 +6,11 @@
 /*   By: neves <neves@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 20:35:25 by aneves            #+#    #+#             */
-/*   Updated: 2025/11/03 23:11:42 by neves            ###   ########.fr       */
+/*   Updated: 2026/02/03 00:23:53 by neves            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../inc/libft.h"
 
 int	ft_isalnum(int i)
 {

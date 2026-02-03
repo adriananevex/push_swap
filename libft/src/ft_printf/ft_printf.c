@@ -6,11 +6,11 @@
 /*   By: neves <neves@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/16 22:42:45 by neves             #+#    #+#             */
-/*   Updated: 2025/11/16 22:57:56 by neves            ###   ########.fr       */
+/*   Updated: 2026/02/03 00:28:45 by neves            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../../inc/ft_printf.h"
 
 int ft_printf(const char *format, ...)
 {

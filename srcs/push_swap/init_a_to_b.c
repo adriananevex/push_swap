@@ -20,11 +20,11 @@ void  current_index(t_stack_node *stack)
   }
 }
 
-static void  set_target_a(t_stack_node *a, T_stack_node *b)
+static void  set_target_a(t_stack_node *a, t_stack_node *b)
 {
   t_stack_node  *current_b;
   t_stack_node  *target_node;
-  long          *best_match_index;
+  long          best_match_index;
 
   while (a)
   {
@@ -53,7 +53,7 @@ static void  cost_analysis_a(t_stack_node *a, t_stack_node *b)
   int len_b;
 
   len_a = stack_len(a);
-  len_b 0 stack_len(b);
+  len_b = stack_len(b);
   while (a)
   {
     a->push_cost = a->index;
@@ -63,7 +63,7 @@ static void  cost_analysis_a(t_stack_node *a, t_stack_node *b)
       a->push_cost += a->target_node->index;
     else
       a->push_cost += len_b - (a->target_node->index);
-    a = a->next,
+    a = a->next;
   }
 }
 
@@ -93,7 +93,7 @@ void  init_nodes_a(t_stack_node *a, t_stack_node *b)
   current_index(a);
   current_index(b);
   set_target_a(a, b);
-  cost_analysis(a, b);
+  cost_analysis_a(a, b);
   set_cheapest(a);
 }
 

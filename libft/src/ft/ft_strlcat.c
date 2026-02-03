@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aneves <aneves@student.42lisboa.com>       +#+  +:+       +#+        */
+/*   By: neves <neves@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 20:36:31 by aneves            #+#    #+#             */
-/*   Updated: 2025/11/14 19:01:05 by aneves           ###   ########.fr       */
+/*   Updated: 2026/02/03 00:26:19 by neves            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../inc/libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dst_size)
 {

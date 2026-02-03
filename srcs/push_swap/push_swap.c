@@ -21,6 +21,6 @@ int main(int argc, char **argv)
     else
       sort_stacks(&a, &b);
   }
-  free(stack(&a));
+  free_stack(&a);
   return (0);
 }

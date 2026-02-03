@@ -6,11 +6,11 @@
 /*   By: neves <neves@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/30 20:48:31 by aneves            #+#    #+#             */
-/*   Updated: 2025/11/10 22:51:48 by neves            ###   ########.fr       */
+/*   Updated: 2026/02/03 00:26:12 by neves            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../inc/libft.h"
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {

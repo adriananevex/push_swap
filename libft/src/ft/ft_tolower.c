@@ -6,11 +6,11 @@
 /*   By: neves <neves@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 21:16:54 by aneves            #+#    #+#             */
-/*   Updated: 2025/11/10 23:16:09 by neves            ###   ########.fr       */
+/*   Updated: 2026/02/03 00:26:54 by neves            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../inc/libft.h"
 
 int	ft_tolower(int i)
 {

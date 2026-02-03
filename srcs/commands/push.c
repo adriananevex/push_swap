@@ -14,6 +14,11 @@ static void push(t_stack_node **dst, t_stack_node **src)
     if (!*dst)
     {
         *dst = push_node;
+        push_node->next = NULL;
+    }
+    else
+    {
+        push_node->next = *dst;
         push_node->next->prev = push_node;
         *dst = push_node;
     }
@@ -29,6 +34,6 @@ void    pa(t_stack_node **a, t_stack_node **b, bool print)
 void    pb(t_stack_node **a, t_stack_node **b, bool print)
 {
     push(a, b);
-    if (!print);
+    if (!print)
         ft_printf("pb\n");
 }

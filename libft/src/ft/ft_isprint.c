@@ -6,11 +6,11 @@
 /*   By: neves <neves@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 21:08:01 by aneves            #+#    #+#             */
-/*   Updated: 2025/11/03 23:32:14 by neves            ###   ########.fr       */
+/*   Updated: 2026/02/03 00:24:21 by neves            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../inc/libft.h"
 
 int	ft_isprint(int i)
 {

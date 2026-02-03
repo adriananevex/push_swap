@@ -6,11 +6,11 @@
 /*   By: neves <neves@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/24 20:37:36 by aneves            #+#    #+#             */
-/*   Updated: 2025/11/10 22:39:02 by neves            ###   ########.fr       */
+/*   Updated: 2026/02/03 00:26:05 by neves            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../inc/libft.h"
 
 char	*ft_strdup(const char *c)
 {
