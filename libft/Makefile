@@ -63,10 +63,7 @@ FTPRINTF_DIR  =  $(SRC_DIR)ft_printf/ft_printf.c \
                 $(SRC_DIR)ft_printf/ft_print_unsigned.c \
                 $(SRC_DIR)ft_printf/ft_type.c
 
-FTGNL_DIR  =    $(SRC_DIR)get_next_line/get_next_line.c \
-                $(SRC_DIR)get_next_line/get_next_line_utils.c
-
-SRC        =  $(FT_DIR) $(FTLST_DIR) $(FTPRINTF_DIR) $(FTGNL_DIR)
+SRC        =  $(FT_DIR) $(FTLST_DIR) $(FTPRINTF_DIR)
 
 OBJ        =  $(patsubst $(SRC_DIR)%.c, $(OBJ_DIR)%.o, $(SRC))
 
