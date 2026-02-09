@@ -67,7 +67,7 @@ size_t	ft_strlen_b(const char *c)
 	return (i);
 }
 
-char	*ft_strchr(char *str, int c)
+char	*ft_strchr(const char *str, int c)
 {
 	unsigned char	d;
 	size_t			i;

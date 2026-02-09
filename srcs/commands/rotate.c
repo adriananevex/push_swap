@@ -24,7 +24,7 @@ void  ra(t_stack_node **a, bool print)
 void  rb(t_stack_node **b, bool print)
 {
   rotate(b);
-  if (print)
+  if (!print)
     ft_printf("rb\n");
 }
 

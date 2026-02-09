@@ -24,7 +24,7 @@
 size_t	ft_strlen_b(const char *str);
 
 char	*get_next_line(int fd);
-char	*ft_strchr(char *str, int c);
+char	*ft_strchr(const char *str, int c);
 char	*ft_join_b(char *line, char *str);
 
 void	ft_left(char *str);
