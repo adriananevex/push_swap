@@ -5,7 +5,7 @@ INC					= inc/
 SRC_DIR			= srcs/
 OBJ_DIR			= obj/
 
-CC					= gcc
+CC					= cc
 CFLAGS			= -Wall -Werror -Wextra -I
 RM					= rm -f
 
